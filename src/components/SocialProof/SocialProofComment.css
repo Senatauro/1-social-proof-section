@@ -1,0 +1,61 @@
+.social-proof-comment{
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-proof-comment-avatar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-proof-comment-avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.social-proof-comment-user{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.social-proof-comment-user-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.social-proof-comment-user-subtitle{
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(303, 10%, 53%);
+}
+
+.social-proof-comment-desc{
+    color: white;
+    line-height: 1.5rem;
+}
+
+.margin-top-20{
+    align-self: start;
+}
+
+.margin-top-40{
+    align-self: center;
+}
+
+.margin-top-60{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .margin-top-60{
+        margin-top: 0;
+    }
+}
